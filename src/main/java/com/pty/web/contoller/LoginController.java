@@ -1,4 +1,4 @@
-package com.pty.kakao.login.contoller;
+package com.pty.web.contoller;
 
 import java.util.HashMap;
 
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.pty.kakao.login.service.KaKaoAPI;
+import com.pty.web.service.KaKaoAPI;
 
 @Controller
 public class LoginController {

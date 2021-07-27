@@ -1,4 +1,4 @@
-package com.pty.kakao.login.service;
+package com.pty.web.service;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -33,7 +33,6 @@ public class KaKaoAPI {
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(con.getOutputStream()));
 			StringBuilder sb = new StringBuilder();
 
-			// https://kauth.kakao.com/oauth/authorize?client_id=07d1e4164004cd996e1ce6d978a81577&redirect_uri=http://localhost:8080/login&response_type=code
 			sb.append("grant_type=authorization_code");
 			sb.append("&client_id=07d1e4164004cd996e1ce6d978a81577");
 			sb.append("&redirect_uri=http://localhost:8080/login");
