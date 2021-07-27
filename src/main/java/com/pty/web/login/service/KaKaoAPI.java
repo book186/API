@@ -1,4 +1,4 @@
-package com.pty.web.service;
+package com.pty.web.login.service;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
