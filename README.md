@@ -2,6 +2,7 @@
 API 연동도해보고 기능도 추가해보고 :)
 이것저것해보자!!
 ✌
+[JAVA, Spring Boot, jsp, javascripts]
 
 ----- 완료 -----
 * 카카오 로그인 API 사용
