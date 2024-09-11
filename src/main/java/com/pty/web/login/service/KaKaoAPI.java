@@ -34,7 +34,7 @@ public class KaKaoAPI {
 			StringBuilder sb = new StringBuilder();
 
 			sb.append("grant_type=authorization_code");
-			sb.append("&client_id=07d1e4164004cd996e1ce6d978a81577");
+			sb.append("&client_id=*****************");
 			sb.append("&redirect_uri=http://localhost:8080/login");
 			sb.append("&code=" + authorize_code);
 
